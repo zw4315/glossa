@@ -4,6 +4,7 @@
 
 * 左右分屏：左侧=原文页（PDF/图片/EPUB），右侧=「原文 + 译文 + 摘要」。
 * 翻页联动：每翻到第 N 页，自动执行 OCR→分段→调用 LLM 翻译与摘要→缓存到本地。
+* markitdown 也许可以做到 pdf -> md
 * 可切换引擎：OCR（Tesseract/PaddleOCR）与 LLM（Ollama/API）。
 * 断点续处理、可重试、可刷新当前页。
 * 需要把 右边做成 youglish 这种可以联想的， 最好带联网的功能
